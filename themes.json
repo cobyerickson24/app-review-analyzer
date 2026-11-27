@@ -1,0 +1,11 @@
+{
+  "Ads": ["ad", "ads", "advert*", "commercial*", "unskippable", "skip button", "skip ad*"],
+  "Shorts": ["shorts", "short videos"],
+  "Updates & UI changes": ["update*", "layout", "redesign*", "interface", "button*", "icon*", "used to", "anymore", "change*", "new design", "menu"],
+  "Bugs & crashes": ["crash*", "bug*", "glitch*", "freez*", "frozen", "broken", "not working", "doesn't work", "doesnt work", "error*", "lag*", "stuck", "black screen"],
+  "Playback & loading": ["buffer*", "loading", "won't load", "wont load", "won't play", "wont play", "playback", "quality", "resolution", "picture in picture", "pip", "background play*"],
+  "Premium & pricing": ["premium", "subscription*", "subscribe to premium", "price*", "pay", "paying", "paid", "money", "expensive", "cost*"],
+  "Content & recommendations": ["recommend*", "algorithm", "feed", "inappropriate", "kids", "child*", "clickbait"],
+  "Comments & community": ["comment*", "repl*", "community"],
+  "Account & login": ["login", "log in", "sign in", "signed out", "account", "password", "banned"]
+}

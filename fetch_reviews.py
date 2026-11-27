@@ -1,4 +1,6 @@
 import requests
+import json
+
 
 def fetch_reviews(app_id, pages=3):
     reviews = []
@@ -29,6 +31,14 @@ def fetch_reviews(app_id, pages=3):
 
 
 if __name__ == "__main__":
-    reviews = fetch_reviews("544007664")
+    reviews = fetch_reviews("544007664", pages=10)
     print(f"Got {len(reviews)} reviews")
-    print(reviews[0])
+
+    with open("reviews.json", "w") as f:
+        json.dump(reviews, f, indent=2, ensure_ascii=False)
+    print("Saved to reviews.json")
+
+    # count reviews by star rating
+    for stars in range(5, 0, -1):
+        count = sum(1 for r in reviews if r["rating"] == stars)
+        print(f"{stars}-star: {count}")
