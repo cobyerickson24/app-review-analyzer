@@ -1,6 +1,6 @@
 # App Review Analyzer
 
-Turns hundreds of App Store reviews into a one-page report showing what's frustrating users most, with real quotes as evidence.
+Pick any App Store app and see what's frustrating its users most: themes ranked by how often they show up in negative reviews, trends over time, and every review searchable, with real quotes as evidence.
 
 ![Report screenshot](screenshot.png)
 
@@ -18,9 +18,11 @@ Running it on the 500 most recent US reviews of the YouTube app:
 
 ## How it works
 
-1. **Collect** (`fetch_reviews.py`) pulls the most recent reviews from Apple's public review feed, including rating, text, app version, and date, and saves them to `reviews.json`.
+The main way to use it is the interactive app: run `python3 app.py` and a dashboard opens in your browser. Search for any App Store app (or pick a popular one), choose a country, and it pulls that app's most recent reviews and analyzes them on the spot.
+
+1. **Collect** (`fetch_reviews.py`) pulls up to 500 of an app's most recent reviews from Apple's public review feed, including rating, text, app version, and date. Apple's feed randomly returns empty pages, so it fetches pages in parallel and retries the empty ones.
 2. **Analyze** (`analyze.py`) tags each review with themes using a keyword taxonomy, then ranks the themes by how often they appear in 1–2 star reviews. It also flags negative reviews that didn't match any theme, so the taxonomy can be improved over time.
-3. **Report** (`report.py`) turns the results into `report.html`, a single page with headline stats, the rating split, ranked issues, and example quotes.
+3. **Show** (`app.py` and `report.py`). `app.py` is a small local web server (standard library only) that serves the dashboard and fetches apps on demand. `report.py` holds the dashboard page and can also write a single self-contained `report.html` you can share. The dashboard has headline stats, the rating split, ranked issues, reviews over time split into positive and negative, example quotes, and a searchable explorer of every tagged review. Click an issue or rating bar to filter the explorer, filter by rating, theme, or app version, and hover the charts for details. It opens in dark mode, with a light/dark toggle.
 
 ## Design decisions
 
@@ -31,22 +33,28 @@ Running it on the 500 most recent US reviews of the YouTube app:
 
 ## Run it yourself
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install requests
+You need Python 3 and an internet connection. Nothing else to install.
 
-python fetch_reviews.py   # pull reviews
-python analyze.py         # tag and rank themes
-python report.py          # build report.html
-open report.html
+```bash
+python3 app.py
 ```
 
-To analyze a different app, find its ID in its App Store URL (the number after `id`), put it in `fetch_reviews.py`, update `APP_NAME` in `report.py`, and adjust the keywords in `themes.json`.
+Your browser opens at http://localhost:8000. Search for an app and click it. Keep the terminal window open while you use the app, and press Ctrl+C there to stop it.
+
+Other ways to run it:
+
+```bash
+python3 report.py              # build report.html from the saved YouTube reviews in reviews.json
+python3 report.py 570060128    # fetch an app by its App Store ID (here Duolingo) and build report.html for it
+python3 fetch_reviews.py 570060128   # just save an app's reviews to reviews.json
+python3 analyze.py             # print the theme ranking for reviews.json
+```
+
+An app's ID is the number after `id` in its App Store URL. You can also download any app's report from the dashboard with the **Download report** button. The theme keywords live in `themes.json`; edit them to add themes or tune them for a particular app.
 
 ## What I'd add next
 
 - Support for Google Play reviews
-- Trends over time and by app version, to spot when a release caused a spike in complaints
+- Longer-range trends by app version, to spot when a release caused a spike in complaints
 - Handling non-English reviews (several Spanish reviews currently go untagged)
 - An optional AI mode for more nuanced grouping
