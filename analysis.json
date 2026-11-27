@@ -1,0 +1,326 @@
+{
+  "total_reviews": 500,
+  "rating_counts": {
+    "5": 193,
+    "4": 31,
+    "3": 43,
+    "2": 42,
+    "1": 191
+  },
+  "avg_rating": 2.99,
+  "negative_reviews": 233,
+  "themes": [
+    {
+      "theme": "Updates & UI changes",
+      "mentions": 125,
+      "pct_of_all": 25.0,
+      "negative_mentions": 97,
+      "pct_of_negative": 41.6,
+      "avg_rating": 1.79,
+      "versions": {
+        "21.47.6": 97
+      },
+      "examples": [
+        {
+          "rating": 2,
+          "title": "Fix watch history search bar",
+          "text": "Fix the watch history search bar already, everytime theres an update theres always something else that gets messed up👎"
+        },
+        {
+          "rating": 1,
+          "title": "Please Fix Subs Filter Option",
+          "text": "Nov 2026 update- WHY WOULD YOU REMOVE THE “FILTER” OPTION WHEN YOU GO TO YOUR SUBS?!?! so annoying, I just keep leaving the app bc I don’t even know what’s new or reshared or shorts or whatever. Please fix this!!"
+        },
+        {
+          "rating": 1,
+          "title": "Please update",
+          "text": "Please allow a simple setting to remove all generative ai from my feed. My YouTube experience has been greatly affected by the issue of having to filter between content of ai and real human made."
+        }
+      ]
+    },
+    {
+      "theme": "Ads",
+      "mentions": 96,
+      "pct_of_all": 19.2,
+      "negative_mentions": 81,
+      "pct_of_negative": 34.8,
+      "avg_rating": 1.54,
+      "versions": {
+        "21.47.6": 80,
+        "21.33.6": 1
+      },
+      "examples": [
+        {
+          "rating": 2,
+          "title": "Ads, ads, ADS!",
+          "text": "I have never given YouTube money and I’m not about to start now. This company is so greedy, the amount of ads is unbearable. I deleted the app/my account."
+        },
+        {
+          "rating": 2,
+          "title": "Buggy enough to buy Premium?",
+          "text": "Many annoying bugs that haven’t gone away with updates. 1. Ads will not allow you to skip. 2. Ads stop after completing but don’t allow you to proceed.  3 Text will be white on light background first thing in the morning.  All require a restart of the app"
+        },
+        {
+          "rating": 1,
+          "title": "Sucks",
+          "text": "Used to be 5 stars and it’s still good for watching videos but the ads new gui and you guys made it auto mute on shorts like fix it bro"
+        }
+      ]
+    },
+    {
+      "theme": "Premium & pricing",
+      "mentions": 56,
+      "pct_of_all": 11.2,
+      "negative_mentions": 47,
+      "pct_of_negative": 20.2,
+      "avg_rating": 1.64,
+      "versions": {
+        "21.47.6": 47
+      },
+      "examples": [
+        {
+          "rating": 2,
+          "title": "Ads, ads, ADS!",
+          "text": "I have never given YouTube money and I’m not about to start now. This company is so greedy, the amount of ads is unbearable. I deleted the app/my account."
+        },
+        {
+          "rating": 1,
+          "title": "Membership fee",
+          "text": "They are requiring me to pay the membership fee in US dollars rather than in my local currency. Despite calling and emailing them to explain the situation, they keep dismissing my issue by claiming there is nothing they can do because that is how their system is set up."
+        },
+        {
+          "rating": 2,
+          "title": "Buggy enough to buy Premium?",
+          "text": "Many annoying bugs that haven’t gone away with updates. 1. Ads will not allow you to skip. 2. Ads stop after completing but don’t allow you to proceed.  3 Text will be white on light background first thing in the morning.  All require a restart of the app"
+        }
+      ]
+    },
+    {
+      "theme": "Bugs & crashes",
+      "mentions": 35,
+      "pct_of_all": 7.0,
+      "negative_mentions": 26,
+      "pct_of_negative": 11.2,
+      "avg_rating": 1.83,
+      "versions": {
+        "21.47.6": 25,
+        "21.33.6": 1
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Still doesn't work right",
+          "text": "You are still forced to delete and redownload the app every time you close it out to get picture and picture to work. I don't understand why it's still not been fixed, or how they're allowing this to just go on and on and on"
+        },
+        {
+          "rating": 1,
+          "title": "Very bad YouTube",
+          "text": "It has been kicking me out saying error to my videos i am trying to post it keeps crashing and when I post a child friendly video it says you have to ask parents for permission or not available for your account"
+        },
+        {
+          "rating": 2,
+          "title": "Buggy enough to buy Premium?",
+          "text": "Many annoying bugs that haven’t gone away with updates. 1. Ads will not allow you to skip. 2. Ads stop after completing but don’t allow you to proceed.  3 Text will be white on light background first thing in the morning.  All require a restart of the app"
+        }
+      ]
+    },
+    {
+      "theme": "Content & recommendations",
+      "mentions": 46,
+      "pct_of_all": 9.2,
+      "negative_mentions": 26,
+      "pct_of_negative": 11.2,
+      "avg_rating": 2.39,
+      "versions": {
+        "21.47.6": 26
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Bad things",
+          "text": "This is the worst I got this for my child 11 and there were so many bad things I can’t believe it so many bad things on this app they need to fix it NOW😡😡😡!!!"
+        },
+        {
+          "rating": 1,
+          "title": "Very bad YouTube",
+          "text": "It has been kicking me out saying error to my videos i am trying to post it keeps crashing and when I post a child friendly video it says you have to ask parents for permission or not available for your account"
+        },
+        {
+          "rating": 1,
+          "title": "Please update",
+          "text": "Please allow a simple setting to remove all generative ai from my feed. My YouTube experience has been greatly affected by the issue of having to filter between content of ai and real human made."
+        }
+      ]
+    },
+    {
+      "theme": "Shorts",
+      "mentions": 34,
+      "pct_of_all": 6.8,
+      "negative_mentions": 24,
+      "pct_of_negative": 10.3,
+      "avg_rating": 2.21,
+      "versions": {
+        "21.47.6": 24
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Please Fix Subs Filter Option",
+          "text": "Nov 2026 update- WHY WOULD YOU REMOVE THE “FILTER” OPTION WHEN YOU GO TO YOUR SUBS?!?! so annoying, I just keep leaving the app bc I don’t even know what’s new or reshared or shorts or whatever. Please fix this!!"
+        },
+        {
+          "rating": 1,
+          "title": "Pathetic",
+          "text": "Nobody was using their Google lens AI, so they took it from the top right of the screen to the middle of the screen when you pause a video. pathetic, also bring back dislikes on shorts you snowflakes"
+        },
+        {
+          "rating": 1,
+          "title": "Sucks",
+          "text": "Used to be 5 stars and it’s still good for watching videos but the ads new gui and you guys made it auto mute on shorts like fix it bro"
+        }
+      ]
+    },
+    {
+      "theme": "Comments & community",
+      "mentions": 20,
+      "pct_of_all": 4.0,
+      "negative_mentions": 12,
+      "pct_of_negative": 5.2,
+      "avg_rating": 2.2,
+      "versions": {
+        "21.47.6": 12
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Tweaks needed for iPhone Duo",
+          "text": "Not well optimized. Shorts aren’t full screen and on videos comments off to side"
+        },
+        {
+          "rating": 1,
+          "title": "Terrible on Apple TV",
+          "text": "Why do I have to keep choosing my own profile? I hate kids so why do I have to have a kids option on here? This app is so sloppily made. Did you fire all your code writers and replace them with Gemini or something?"
+        },
+        {
+          "rating": 1,
+          "title": "The new UI changes are an abomination",
+          "text": "I will never understand why companies feel the need to change their app interfaces for no reason whatsoever. Whoever approved to replace the subscription page button with a create shorts button needs to be fired. I’ve never seen a redesign this bad before it’s genuinely awful."
+        }
+      ]
+    },
+    {
+      "theme": "Playback & loading",
+      "mentions": 11,
+      "pct_of_all": 2.2,
+      "negative_mentions": 8,
+      "pct_of_negative": 3.4,
+      "avg_rating": 2.0,
+      "versions": {
+        "21.47.6": 8
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Every update makes the app worse",
+          "text": "They keep fiddling with app appearance, tab placement, video groupings, etc. App itself keeps lowering in quality. The product itself isn’t changed by the app, but hilarious that they are pushing YouTube live harder than before while actively making user experience worse."
+        },
+        {
+          "rating": 1,
+          "title": "Extremely laggy now",
+          "text": "Why? What happened? Issues on All devices. It’s loading/delaying after 30 minutes of app time."
+        }
+      ]
+    },
+    {
+      "theme": "Account & login",
+      "mentions": 11,
+      "pct_of_all": 2.2,
+      "negative_mentions": 6,
+      "pct_of_negative": 2.6,
+      "avg_rating": 2.82,
+      "versions": {
+        "21.47.6": 6
+      },
+      "examples": [
+        {
+          "rating": 2,
+          "title": "Ads, ads, ADS!",
+          "text": "I have never given YouTube money and I’m not about to start now. This company is so greedy, the amount of ads is unbearable. I deleted the app/my account."
+        },
+        {
+          "rating": 1,
+          "title": "Very bad YouTube",
+          "text": "It has been kicking me out saying error to my videos i am trying to post it keeps crashing and when I post a child friendly video it says you have to ask parents for permission or not available for your account"
+        },
+        {
+          "rating": 2,
+          "title": "Why are videos not showing up?",
+          "text": "So im tryna watch GojiGuy, GOATED STREAMER, and im trying to watch his Gmk vs Minus Zero video just to find out it’s unavailable under my account. Apparently this “parental invite” thing needs to go, especially for something this useless"
+        }
+      ]
+    }
+  ],
+  "untagged_negative": 54,
+  "untagged_top_words": [
+    [
+      "video",
+      7
+    ],
+    [
+      "watch",
+      6
+    ],
+    [
+      "videos",
+      5
+    ],
+    [
+      "que",
+      4
+    ],
+    [
+      "good",
+      4
+    ],
+    [
+      "did",
+      4
+    ],
+    [
+      "give",
+      4
+    ],
+    [
+      "gifs",
+      4
+    ],
+    [
+      "hate",
+      4
+    ],
+    [
+      "stop",
+      4
+    ],
+    [
+      "anuncios",
+      3
+    ],
+    [
+      "ver",
+      3
+    ],
+    [
+      "trying",
+      3
+    ],
+    [
+      "ever",
+      3
+    ],
+    [
+      "actually",
+      3
+    ]
+  ]
+}
