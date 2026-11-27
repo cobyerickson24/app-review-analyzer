@@ -37,7 +37,9 @@ def tag_reviews(reviews, patterns):
     return reviews
 
 
-def summarize(reviews, patterns):
+def summarize(reviews, patterns, extra_stopwords=()):
+    """extra_stopwords: words to leave out of the gap analysis, e.g. the app's own name."""
+    stop = STOPWORDS | {w.lower() for w in extra_stopwords}
     total = len(reviews)
     negative = [r for r in reviews if r["rating"] <= 2]
 
@@ -70,7 +72,7 @@ def summarize(reviews, patterns):
     words = Counter()
     for r in untagged:
         tokens = re.findall(r"[a-z']+", f"{r['title']} {r['text']}".lower())
-        words.update({t for t in tokens if t not in STOPWORDS and len(t) > 2})
+        words.update({t for t in tokens if t not in stop and len(t) > 2})
 
     return {
         "total_reviews": total,

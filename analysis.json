@@ -258,6 +258,75 @@
           "text": "So im tryna watch GojiGuy, GOATED STREAMER, and im trying to watch his Gmk vs Minus Zero video just to find out it’s unavailable under my account. Apparently this “parental invite” thing needs to go, especially for something this useless"
         }
       ]
+    },
+    {
+      "theme": "Speed & battery",
+      "mentions": 4,
+      "pct_of_all": 0.8,
+      "negative_mentions": 2,
+      "pct_of_negative": 0.9,
+      "avg_rating": 2.5,
+      "versions": {
+        "21.47.6": 2
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "No home page",
+          "text": "No home page on mobile imediatley bombarded with mind draining shorts"
+        }
+      ]
+    },
+    {
+      "theme": "Notifications",
+      "mentions": 2,
+      "pct_of_all": 0.4,
+      "negative_mentions": 2,
+      "pct_of_negative": 0.9,
+      "avg_rating": 1.0,
+      "versions": {
+        "21.47.6": 2
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Yt ads",
+          "text": "To many ads it’s song after song and same adds keep replaying after blocking or reporting for spam f YouTube"
+        },
+        {
+          "rating": 1,
+          "title": "Terrible, more ads than video content now",
+          "text": "Every time you fast forward, every 2 minutes, before AND after every video you are spammed with longer and longer unskippable ads. Ridiculous. Greedy company."
+        }
+      ]
+    },
+    {
+      "theme": "Privacy & data",
+      "mentions": 1,
+      "pct_of_all": 0.2,
+      "negative_mentions": 1,
+      "pct_of_negative": 0.4,
+      "avg_rating": 1.0,
+      "versions": {
+        "21.47.6": 1
+      },
+      "examples": [
+        {
+          "rating": 1,
+          "title": "Privacy denied",
+          "text": "They spy continuously on my non-youtube activities to harass me with ads."
+        }
+      ]
+    },
+    {
+      "theme": "Customer support",
+      "mentions": 1,
+      "pct_of_all": 0.2,
+      "negative_mentions": 0,
+      "pct_of_negative": 0.0,
+      "avg_rating": 4.0,
+      "versions": {},
+      "examples": []
     }
   ],
   "untagged_negative": 54,
@@ -287,11 +356,11 @@
       4
     ],
     [
-      "give",
+      "gifs",
       4
     ],
     [
-      "gifs",
+      "give",
       4
     ],
     [

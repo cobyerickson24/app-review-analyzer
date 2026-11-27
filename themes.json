@@ -4,8 +4,12 @@
   "Updates & UI changes": ["update*", "layout", "redesign*", "interface", "button*", "icon*", "used to", "anymore", "change*", "new design", "menu"],
   "Bugs & crashes": ["crash*", "bug*", "glitch*", "freez*", "frozen", "broken", "not working", "doesn't work", "doesnt work", "error*", "lag*", "stuck", "black screen"],
   "Playback & loading": ["buffer*", "loading", "won't load", "wont load", "won't play", "wont play", "playback", "quality", "resolution", "picture in picture", "pip", "background play*"],
-  "Premium & pricing": ["premium", "subscription*", "subscribe to premium", "price*", "pay", "paying", "paid", "money", "expensive", "cost*"],
+  "Premium & pricing": ["premium", "subscription*", "subscribe to premium", "price*", "pay", "paying", "paid", "money", "expensive", "cost*", "refund*", "charged", "free trial"],
   "Content & recommendations": ["recommend*", "algorithm", "feed", "inappropriate", "kids", "child*", "clickbait"],
   "Comments & community": ["comment*", "repl*", "community"],
-  "Account & login": ["login", "log in", "sign in", "signed out", "account", "password", "banned"]
+  "Account & login": ["login", "log in", "sign in", "signed out", "logged out", "account", "password", "banned", "verification", "verify"],
+  "Customer support": ["customer service", "customer support", "support team", "contact*", "no response", "help center", "chat support"],
+  "Speed & battery": ["slow", "slower", "battery", "drain*", "overheat*", "storage", "takes forever"],
+  "Notifications": ["notification*", "spam*", "push alert*"],
+  "Privacy & data": ["privacy", "my data", "personal information", "personal info", "tracking", "spying", "spy"]
 }
