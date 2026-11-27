@@ -20,7 +20,7 @@ Running it on the 500 most recent US reviews of the YouTube app:
 
 1. **Collect** (`fetch_reviews.py`) pulls the most recent reviews from Apple's public review feed, including rating, text, app version, and date, and saves them to `reviews.json`.
 2. **Analyze** (`analyze.py`) tags each review with themes using a keyword taxonomy, then ranks the themes by how often they appear in 1–2 star reviews. It also flags negative reviews that didn't match any theme, so the taxonomy can be improved over time.
-3. **Report** (`report.py`) turns the results into `report.html`, a single page with headline stats, the rating split, ranked issues, and example quotes.
+3. **Report** (`report.py`) reuses the tagging from `analyze.py` and builds `report.html`, a single self-contained interactive dashboard (no external libraries): headline stats, the rating split, ranked issues, reviews over time split into positive and negative, example quotes, and a searchable explorer of every tagged review. Click an issue or rating bar to filter the explorer, filter by rating, theme, or app version, and hover the charts for details. It opens in dark mode, with a light/dark toggle.
 
 ## Design decisions
 
@@ -47,6 +47,6 @@ To analyze a different app, find its ID in its App Store URL (the number after `
 ## What I'd add next
 
 - Support for Google Play reviews
-- Trends over time and by app version, to spot when a release caused a spike in complaints
+- Longer-range trends by app version, to spot when a release caused a spike in complaints
 - Handling non-English reviews (several Spanish reviews currently go untagged)
 - An optional AI mode for more nuanced grouping
